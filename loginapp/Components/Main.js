@@ -93,6 +93,7 @@ export default class Main extends React.Component {
           style = {[styles.passinput]}
           placeholderTextColor='white'
           placeholder='Password'
+          secureTextEntry={true}
           onChangeText={(text)=> this.validate(text, 'password')}
           ></TextInput>
           

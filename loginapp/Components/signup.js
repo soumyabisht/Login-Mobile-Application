@@ -128,6 +128,8 @@ export default class Signup extends React.Component {
           style = {[styles.input]}
           onChangeText={(text)=> this.validate(text, 'password')}
           placeholderTextColor='white'
+          //password={true}
+          secureTextEntry={true}
           placeholder='Password'></TextInput> 
 
           <View style = {{marginTop: 40}}></View>

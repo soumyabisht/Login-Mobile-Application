@@ -113,7 +113,7 @@ export default class Forgot extends React.Component {
             onChangeText={(text)=> this.validate(text, 'password')}
             placeholderTextColor='white'
             placeholder='Enter New Password'
-            type='password'
+            secureTextEntry={true}
             ></TextInput>
             
             <TextInput 
